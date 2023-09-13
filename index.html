@@ -6,7 +6,7 @@
     <title>Meu Portfólio</title>
     <style>
         body {
-            background-color: #333;
+            background: linear-gradient(to right, #1b1b1b, #333);
             color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
@@ -21,6 +21,8 @@
 
         header h1 {
             font-size: 36px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .container {
@@ -32,35 +34,56 @@
         .project {
             margin-bottom: 40px;
             padding: 20px;
-            background-color: #444;
+            background-color: rgba(0, 0, 0, 0.7);
             border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         }
 
         .project h2 {
-            font-size: 24px;
+            font-size: 28px;
+            color: #ff6b6b;
         }
 
         .project p {
+            font-size: 18px;
+        }
+
+        .presentation {
             font-size: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .demo {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .demo a {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .demo a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>SaoPauloMasterBr</h1>
+        <h1>Meu Portfólio</h1>
     </header>
     <div class="container">
-        <div class="project">
-            <h2>MAJESTOSO</h2>
-            <p>O São Paulo foi campeão em uma decisão direta contra o Corinthians em cinco oportunidades: 1931, 1957, 1987, 1991 e 1998. O São Paulo já eliminou o Corinthians por quatro vezes em mata-matas, nas semifinais do Campeonato Paulista de 2000, Campeonato Paulista de 2022, Copa do Brasil de 2023 e da Copa Conmebol de 1994..</p>
+        <div class="presentation">
+            <p>Me chamo Eder, sou estudante de Análise e Desenvolvimento de Sistemas e atualmente atuo como estagiário em desenvolvimento de firmware e hardware. Seja bem-vindo(a) ao meu portfólio!</p>
         </div>
         <div class="project">
-            <h2>100 PIEDADE</h2>
-            <p>Há 12 anos, Rogério Ceni anotava seu centésimo gol na carreira contra o Corinthians</p>
-        </div>
-        <div class="project">
-            <h2>WELLINGTON RATO</h2>
-            <p>w e l l i n g t o n r a t o</p>
+            <h2>Exemplo de Projeto</h2>
+            <p>Aqui está um projeto recente que demonstro com orgulho:</p>
+            <div class="demo">
+                <a href="#">Clique aqui para ver a demonstração</a>
+            </div>
         </div>
     </div>
 </body>
